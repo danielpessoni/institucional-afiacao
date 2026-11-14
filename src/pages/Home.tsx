@@ -1,0 +1,47 @@
+import heroBackground from "../assets/capa.png";
+import { WhatsAppButton } from "../components/shared/WhatsAppButton";
+
+export const Home = () => {
+
+    return (
+        <main
+            id="hero"
+            className="h-screen w-full flex items-center bg-[#0A0A0A] relative overflow-hidden">
+
+            {/* Background Image with Overlay */}
+            <div className="absolute inset-0 z-0">
+                <img
+                    src={heroBackground}
+                    alt="Afiação de instrumentos profissionais"
+                    className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-linear-to-r from-[#0A0A0A] via-[#0A0A0A]/50 to-[#0A0A0A]/70">
+                </div>
+                <div className="absolute inset-0 bg-[#0A0A0A]/40">
+                </div>
+            </div>
+
+            <div className="max-w-360 mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10">
+                <div className="grid lg:grid-cols-2 gap-12 items-center py-16 lg:py-24">
+                    {/* Text Content */}
+                    <div className="flex flex-col gap-6 lg:gap-8">
+                        <h1 className="text-white drop-shadow-lg text-[1.75rem] md:text-[2.5rem]">
+                            Título de aproximadamente 90 caracteres
+                        </h1>
+
+                        <p className="text-[#A0A0A0] text-[1.125rem] md:text-[1.5rem] max-w-xl drop-shadow-md">
+                            Texto de aproximadamente 150 caracteres
+                        </p>
+
+                        <div className="flex flex-col sm:flex-row gap-4">
+                            <WhatsAppButton>
+                                Solicitar uma avaliação
+                            </WhatsAppButton>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main >
+    );
+}
