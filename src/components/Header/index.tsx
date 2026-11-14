@@ -30,7 +30,7 @@ export const Header = () => {
                         <li>
                             <Link
                                 to="/"
-                                className="text-white hover:text-amber-500 transition-colors duration-300 cursor-pointer"
+                                className="text-white hover:text-amber-primary transition-colors duration-300 cursor-pointer"
                             >Início
                             </Link>
                         </li>
@@ -69,11 +69,11 @@ export const Header = () => {
                     }`}
             >
                 <ul className="flex flex-col px-4 pb-4 gap-4 bg-[#0A0A0A]">
-                    <li className="text-white hover:text-amber-500 transition-colors duration-300 cursor-pointer py-2 border-b border-[rgba(212,175,55,0.1)]">
+                    <li className="text-white hover:text-amber-primary transition-colors duration-300 cursor-pointer py-2 border-b border-[rgba(212,175,55,0.1)]">
                         <Link
                             to="/"
                             onClick={() => setIsMenuOpen(false)}
-                            className="block w-full text-left text-white hover:text-amber-500 transition-colors duration-300"
+                            className="block w-full text-left text-white hover:text-amber-primary transition-colors duration-300"
                         >
                             Início
                         </Link>
