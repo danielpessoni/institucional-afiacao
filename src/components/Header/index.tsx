@@ -47,9 +47,17 @@ export const Header = () => {
                         <li>
                             <Link
                                 to="about"
-                                className="text-white hover:text-yellow-primary transition-colors duration-300"
+                                className="text-white hover:text-amber-primary transition-colors duration-300"
                             >
                                 Sobre
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link
+                                to="contact"
+                                className="text-white hover:text-amber-primary transition-colors duration-300 cursor-pointer"
+                            >Contato
                             </Link>
                         </li>
 
@@ -111,9 +119,19 @@ export const Header = () => {
                         <Link
                             to="/about"
                             onClick={() => setIsMenuOpen(false)}
-                            className="block text-white hover:text-yellow-primary transition-colors duration-300"
+                            className="block text-white hover:text-amber-primary transition-colors duration-300"
                         >
                             Sobre
+                        </Link>
+                    </li>
+
+                    <li className="py-2 border-b border-[rgba(212,175,55,0.1)]">
+                        <Link
+                            to="/contact"
+                            onClick={() => setIsMenuOpen(false)}
+                            className="block text-white hover:text-amber-primary transition-colors duration-300"
+                        >
+                            Contato
                         </Link>
                     </li>
 
