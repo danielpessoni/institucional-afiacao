@@ -2,7 +2,6 @@ import heroBackground from "../assets/capa.png"
 import authorized01 from "../assets/autorizado/authorized01.png"
 import authorized02 from "../assets/autorizado/authorized02.png"
 import { Carousel } from "../components/Carousel"
-import { Button } from "../components/shared/Button"
 import { WhatsAppButton } from "../components/shared/WhatsAppButton"
 
 export const About = () => {
