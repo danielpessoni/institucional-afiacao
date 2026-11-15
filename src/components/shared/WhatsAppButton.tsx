@@ -1,6 +1,8 @@
 import type { ReactNode } from "react";
 import { Button } from "./Button";
 
+export const WHATSAPP_PHONE = "5511900000000";
+
 interface WhatsAppButtonProps {
     className?: string;
     children: ReactNode;
@@ -8,7 +10,7 @@ interface WhatsAppButtonProps {
 
 export const WhatsAppButton = ({ className = "", children }: WhatsAppButtonProps) => {
     const handleClick = () => {
-        window.open("https://wa.me/5511900000000", "_blank");
+        window.open(`https://wa.me/${WHATSAPP_PHONE}`, "_blank");
     };
 
     return (
