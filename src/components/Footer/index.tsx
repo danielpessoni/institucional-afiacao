@@ -22,7 +22,7 @@ export const Footer = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="Instagram"
-                                className="flex text-[#A0A0A0] hover:text-yellow-primary transition-colors duration-300"
+                                className="flex text-[#A0A0A0] hover:text-amber-primary transition-colors duration-300"
                             >
                                 <FaInstagram size={20} />
                                 <span className="hidden text-sm ml-2 md:inline">Instagram</span>
@@ -35,7 +35,7 @@ export const Footer = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="Facebook"
-                                className="flex text-[#A0A0A0] hover:text-yellow-primary transition-colors duration-300"
+                                className="flex text-[#A0A0A0] hover:text-amber-primary transition-colors duration-300"
                             >
                                 <FaFacebook size={20} />
                                 <span className="hidden text-sm ml-2 md:inline">Facebook</span>
@@ -48,7 +48,7 @@ export const Footer = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="YouTube"
-                                className="flex text-[#A0A0A0] hover:text-yellow-primary transition-colors duration-300"
+                                className="flex text-[#A0A0A0] hover:text-amber-primary transition-colors duration-300"
                             >
                                 <FaYoutube size={20} />
                                 <span className="hidden text-sm ml-2 md:inline">YouTube</span>
@@ -61,7 +61,7 @@ export const Footer = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="WhatsApp"
-                                className="flex text-[#A0A0A0] hover:text-yellow-primary transition-colors duration-300"
+                                className="flex text-[#A0A0A0] hover:text-amber-primary transition-colors duration-300"
                             >
                                 <FaWhatsapp size={20} />
                                 <span className="hidden text-sm ml-2 md:inline">WhatsApp</span>
@@ -73,7 +73,7 @@ export const Footer = () => {
                                 href="https://www.google.com/maps/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="flex text-[#A0A0A0] hover:text-yellow-primary transition-colors duration-300"
+                                className="flex text-[#A0A0A0] hover:text-amber-primary transition-colors duration-300"
                             >
                                 <MapPin size={20} />
                                 <span className="text-sm ml-2">Localização</span>

@@ -8,7 +8,7 @@ import { WhatsAppButton } from "../components/shared/WhatsAppButton"
 export const About = () => {
     const desktopTextFirst = (
         <>
-            <span className="mb-4 block text-2xl font-semibold text-yellow-primary sm:text-3xl">
+            <span className="mb-4 block text-2xl font-semibold text-amber-primary sm:text-3xl">
                 Título do quadro 1
             </span>
             <span className="block">
@@ -19,7 +19,7 @@ export const About = () => {
 
     const desktopTextSecond = (
         <>
-            <span className="mb-4 block text-2xl font-semibold text-yellow-primary sm:text-3xl">
+            <span className="mb-4 block text-2xl font-semibold text-amber-primary sm:text-3xl">
                 Título do quadro 2
             </span>
             <span className="block">
@@ -29,8 +29,8 @@ export const About = () => {
     )
 
     const mobileText = (
-        <div className="flex aspect-square h-auto w-full flex-col justify-center rounded-lg border border-yellow-primary/20 bg-[#1A1A1A]/95 px-5 text-center text-sm text-[#D1D1D1] sm:px-8 sm:text-base">
-            <span className="mb-4 block text-2xl font-semibold text-yellow-primary sm:text-3xl">
+        <div className="flex aspect-square h-auto w-full flex-col justify-center rounded-lg border border-amber-primary/20 bg-[#1A1A1A]/95 px-5 text-center text-sm text-[#D1D1D1] sm:px-8 sm:text-base">
+            <span className="mb-4 block text-2xl font-semibold text-amber-primary sm:text-3xl">
                 Título do card Mobile
             </span>
             <span className="block">
@@ -41,9 +41,9 @@ export const About = () => {
 
     // Classes compartilhadas pelos cards e pelas imagens das certificações.
     const cardClassName =
-        "aspect-square w-full overflow-hidden rounded-lg border border-yellow-primary/20 bg-[#1A1A1A] md:aspect-[5/3]"
+        "aspect-square w-full overflow-hidden rounded-lg border border-amber-primary/20 bg-[#1A1A1A] md:aspect-[5/3]"
     const textCardClassName =
-        "about-text-card flex aspect-square min-h-0 min-w-0 items-center overflow-hidden rounded-lg border border-yellow-primary/20 bg-[#1A1A1A]/95 md:aspect-[5/3]"
+        "about-text-card flex aspect-square min-h-0 min-w-0 items-center overflow-hidden rounded-lg border border-amber-primary/20 bg-[#1A1A1A]/95 md:aspect-[5/3]"
 
     return (
         <section

@@ -164,7 +164,7 @@ export const Carousel = ({
                             type="button"
                             onClick={() => selectCard(index)}
                             aria-label={`Mostrar card ${index + 1}`}
-                            className={`h-1.5 md:h-2 rounded-full transition-all ${index === activeIndex ? "w-4 md:w-6 bg-yellow-primary" : "w-1.5 md:w-2 bg-white/50"
+                            className={`h-1.5 md:h-2 rounded-full transition-all ${index === activeIndex ? "w-4 md:w-6 bg-amber-primary" : "w-1.5 md:w-2 bg-white/50"
                                 }`}
                         />
                     ))}

@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 @theme {
-    --color-yellow-primary: #D4AF37;
     --color-amber-primary: #FE9A00;
     --color-amber-strong: #E17100;
 
