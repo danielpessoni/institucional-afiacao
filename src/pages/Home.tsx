@@ -1,7 +1,15 @@
+import { Link } from "react-router-dom";
 import heroBackground from "../assets/capa.png";
+import { Button } from "../components/shared/Button";
 import { WhatsAppButton } from "../components/shared/WhatsAppButton";
 
 export const Home = () => {
+    const scrollToSection = (id: string) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    };
 
     return (
         <main
@@ -37,7 +45,15 @@ export const Home = () => {
                             <WhatsAppButton>
                                 Solicitar uma avaliação
                             </WhatsAppButton>
-                            
+                            <Link to="services" className="w-full sm:w-auto">
+                                <Button
+                                    variant="secondary"
+                                    className="w-full sm:w-auto"
+                                    onClick={() => scrollToSection("services")}
+                                >
+                                    Conhecer os serviços
+                                </Button>
+                            </Link>
                         </div>
                     </div>
                 </div>
