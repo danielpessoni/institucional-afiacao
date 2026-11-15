@@ -45,6 +45,15 @@ export const Header = () => {
                         </li>
 
                         <li>
+                            <Link
+                                to="about"
+                                className="text-white hover:text-yellow-primary transition-colors duration-300"
+                            >
+                                Sobre
+                            </Link>
+                        </li>
+
+                        <li>
                             <WhatsAppButton>Fale conosco!</WhatsAppButton>
                         </li>
                     </ul>
@@ -95,6 +104,16 @@ export const Header = () => {
                             className="block text-white hover:text-amber-primary transition-colors duration-300"
                         >
                             Serviços
+                        </Link>
+                    </li>
+
+                    <li className="py-2 border-b border-[rgba(212,175,55,0.1)]">
+                        <Link
+                            to="/about"
+                            onClick={() => setIsMenuOpen(false)}
+                            className="block text-white hover:text-yellow-primary transition-colors duration-300"
+                        >
+                            Sobre
                         </Link>
                     </li>
 
